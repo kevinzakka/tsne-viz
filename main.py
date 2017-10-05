@@ -38,7 +38,10 @@ def main(config):
 
     # grab file names for saving
     file_name = name_file(config) + '.p'
-    img_name = name_file(config) + '.pdf'
+    v = '_v1'
+    if config.with_images == True:
+        v = '_v2'
+    img_name = name_file(config) + v + '.pdf'
 
     if config.compute_embeddings:
         print("X_sample: {}".format(X_sample.shape))
