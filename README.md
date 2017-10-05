@@ -1,13 +1,11 @@
 ## t-SNE Visualization
 
-This repository is an easy-to-run t-SNE visualization tool for your dataset of choice.
+This repository is an easy-to-run t-SNE visualization tool for your dataset of choice. It currently supports 2D and 3D plots as well as an optional original image overlay on top of the 2D points.
 
 <p align="center">
  <img src="./assets/splash1.png" alt="Drawing" width="40%">
  <img src="./assets/splash2.png" alt="Drawing" width="40%">
 </p>
-
-It currently supports 2D and 3D plots as well as an optional original image overlay on top of the 2D points.
 
 ## Usage
 
