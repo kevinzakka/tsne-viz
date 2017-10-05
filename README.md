@@ -71,7 +71,7 @@ Path Params:
   --plot_dir PLOT_DIR   Directory where plots are saved
 ```
 
-## Overlay Images
+## Image Overlay
 
 The overlay option only works for 2D plots and relies on matplotlib's `AnnotationBox` method. Here's an example of what it outputs:
 
