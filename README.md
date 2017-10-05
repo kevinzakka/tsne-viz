@@ -3,15 +3,11 @@
 This repository is an easy-to-run t-SNE visualization tool for your dataset of choice.
 
 <p align="center">
- <img src="./assets/splash1.png" alt="Drawing" width="50%">
- <img src="./assets/splash2.png" alt="Drawing" width="50%">
+ <img src="./assets/splash1.png" alt="Drawing" width="40%">
+ <img src="./assets/splash2.png" alt="Drawing" width="40%">
 </p>
 
 It currently supports 2D and 3D plots as well as an optional original image overlay on top of the 2D points.
-
-<p align="center">
- <img src="./assets/overlay.png" alt="Drawing" width="95%">
-</p>
 
 ## Usage
 
@@ -34,7 +30,6 @@ You'll only need to **modify** the `load_data` method if you're planning on usin
 X: (100, 32, 32)
 y: (100,)
 ```
-
 
 To see all possible command line options, run 
 
@@ -75,3 +70,11 @@ Path Params:
   --data_dir DATA_DIR   Directory where data is stored
   --plot_dir PLOT_DIR   Directory where plots are saved
 ```
+
+## Overlay Images
+
+The overlay option only works for 2D plots and relies on matplotlib's `AnnotationBox` method. Here's an example of what it outputs:
+
+<p align="center">
+ <img src="./assets/overlay.png" alt="Drawing" width="80%">
+</p>
