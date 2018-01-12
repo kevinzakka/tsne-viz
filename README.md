@@ -7,6 +7,32 @@ This repository is an easy-to-run t-SNE visualization tool for your dataset of c
  <img src="./assets/splash2.png" alt="Drawing" width="40%">
 </p>
 
+## Installation
+
+### Ubuntu Installation
+
+First clone this repository, then install the TkInter package by running:
+
+```
+sudo apt-get install python3-tk
+```
+
+Optionally create a virtualenv for this project:
+
+```
+cd tsne-vis
+virtualenv -p python3
+source venv/bin/activate
+```
+
+Then install the python3 dependecies:
+
+```
+cd tsne-vis
+pip install -r requirements.txt
+```
+
+
 ## Usage
 
 <span style="color:red">**Example Command**</span>
